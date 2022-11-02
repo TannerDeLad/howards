@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-image: url(killer_bass.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 0;
+}
+
+nav {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: 30px;
+    border: 2px solid #E8EDE7;
+    color: #E8EDE7;
+    background-color:#DCE2BD;
+}
+
+a {
+    text-decoration: none;
+    color: #93C0A4;
+}
+
+a:visited a:link {
+    color: #93C0A4;
+}
+
+a:hover {
+    background-color:#E8EDE7;
+}
+
+.social_media {
+    margin: 70px 70px 70px 70px;
+    text-align: center;
+    color: #DCE2BD;
+}
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #B6C4A2;
+    z-index: 1;
+    width: 70%;
+    margin:auto;
+}
+
+.intro img {
+    max-width: 75%;
+    height: fit-content;
+}
+
+.bufferzone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.respool {
+    background-color: #D4CDAB;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.respool_img img {
+    z-index: 2;
+    width: 80%;
+    height: fit-content;
+}
+
+.intro_img img {
+    z-index: 2;
+    width: 60%;
+    height: fit-content;
+
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer {
+    color: white;
+}
+
+table,
+th {
+    border: 2px white solid;
+}
+
+table {
+    margin: 150px 0px 0px 150px;
+    width: 80%;
+    color: rgb(12, 121, 211);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(254, 192, 122);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(243, 252, 184);
+}
+
+td {
+    text-align: center;
+}
+.bait_head {
+    background-color: #E8EDE7;
+}
+h3 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:#E8EDE7;
+    font-size: 75px;
+}
